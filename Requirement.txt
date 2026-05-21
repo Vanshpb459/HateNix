@@ -1,0 +1,40 @@
+# Core Dependencies
+google-api-python-client>=2.80.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+google-auth>=2.17.0
+
+# ML/DL for Hate Speech Detection
+torch>=2.0.0
+transformers>=4.30.0
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# GUI Development
+Pillow>=10.0.0
+customtkinter>=5.2.0  # For modern UI
+tkinter  # Usually included with Python
+
+# Data Processing
+joblib>=1.2.0
+
+# For Instagram Integration (Optional)
+facebook-business>=16.0.0
+instagrapi>=2.2.0
+
+# API Communication
+requests>=2.31.0
+oauthlib>=3.2.0
+
+# Development & Packaging
+pyinstaller>=5.13.0
+pywin32>=305  # Windows specific
+iniconfig>=2.0.0
+
+# Optional: For Excel export
+openpyxl>=3.1.0
+
+# Optional: For advanced logging
+loguru>=0.7.0
+streamlit

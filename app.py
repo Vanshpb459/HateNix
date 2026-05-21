@@ -1,8 +1,7 @@
 import streamlit as st
 import os
 import sys
-from flask import Flask
-app = Flask(__name__)
+
 # Add HateNix directory to path to import HateSpeechModel
 sys.path.append(os.path.join(os.path.dirname(__file__), 'HateNix'))
 from HateNix import HateSpeechModel
@@ -40,5 +39,3 @@ if st.button("Analyze Text", type="primary"):
 st.markdown("---")
 st.caption("Powered by RoBERTa and HateNix AI")
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)

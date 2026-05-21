@@ -10,3 +10,5 @@ contractions
 matplotlib
 indic-nlp-library
 streamlit
+
+torchvision

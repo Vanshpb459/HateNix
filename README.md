@@ -50,7 +50,7 @@ The system uses Natural Language Processing (NLP) and Machine Learning models to
 
 ## 👨‍💻 Author
 
-**Vansh Kaushal**  
+**Vanshika**  
 - GitHub: https://github.com/heyvanshika11
 - LinkedIn: https://www.linkedin.com/in/vanshika-1101abc
 
